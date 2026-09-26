@@ -1,0 +1,13 @@
+name: AquaPlugin
+version: 1.0.0
+main: com.aquaskripto.aquaplugin.AquaPlugin
+api-version: 1.20
+commands:
+  zamek:
+    description: Wydaje Różdżkę Piaskowego Zamku.
+    usage: /zamek [gracz]
+    permission: aquaplugin.zamek
+permissions:
+  aquaplugin.zamek:
+    description: Pozwala wydawać różdżkę.
+    default: op
